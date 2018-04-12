@@ -1,0 +1,1270 @@
+body {
+  background-color: #2B2D33;
+}
+
+.percent {
+  color: white;
+  font: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.preloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.rects rect:nth-child(1) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(2) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(3) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(4) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(5) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(6) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(7) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(8) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(9) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(10) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(11) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(12) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(13) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(14) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(15) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(16) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(17) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(18) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(19) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(20) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(21) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(22) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(23) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(24) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(25) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(26) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(27) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(28) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(29) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(30) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(31) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(32) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(33) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(34) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(35) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(36) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(37) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(38) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(39) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(40) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(41) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(42) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(43) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(44) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(45) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(46) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(47) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(48) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(49) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(50) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(51) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(52) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(53) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(54) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(55) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(56) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(57) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(58) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(59) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(60) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(61) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(62) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(63) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(64) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(65) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(66) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(67) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(68) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(69) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(70) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(71) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(72) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(73) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(74) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(75) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(76) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(77) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(78) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(79) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(80) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(81) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(82) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(83) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(84) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(85) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(86) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(87) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(88) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(89) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(90) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(91) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(92) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(93) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(94) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(95) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(96) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(97) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(98) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(99) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(100) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(101) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(102) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(103) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(104) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(105) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(106) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(107) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(108) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(109) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(110) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(111) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(112) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(113) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(114) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(115) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(116) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(117) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(118) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(119) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(120) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(121) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(122) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(123) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(124) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(125) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(126) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(127) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(128) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(129) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(130) {
+  position: relative;
+  opacity: 0;
+}
+
+.rects rect:nth-child(131) {
+  position: relative;
+  opacity: 0;
+}
+
+.preloader-10 .rects rect:nth-child(1) {
+  animation: blink 5s infinite;
+  animation-delay: 0.44275s;
+}
+.preloader-10 .rects rect:nth-child(2) {
+  animation: blink 5s infinite;
+  animation-delay: 0.64885s;
+}
+.preloader-10 .rects rect:nth-child(3) {
+  animation: blink 5s infinite;
+  animation-delay: 0.33588s;
+}
+.preloader-10 .rects rect:nth-child(4) {
+  animation: blink 5s infinite;
+  animation-delay: 0.73282s;
+}
+.preloader-10 .rects rect:nth-child(5) {
+  animation: blink 5s infinite;
+  animation-delay: 0.94656s;
+}
+.preloader-10 .rects rect:nth-child(6) {
+  animation: blink 5s infinite;
+  animation-delay: 0.08397s;
+}
+.preloader-10 .rects rect:nth-child(7) {
+  animation: blink 5s infinite;
+  animation-delay: 0.14504s;
+}
+.preloader-10 .rects rect:nth-child(8) {
+  animation: blink 5s infinite;
+  animation-delay: 0.41221s;
+}
+
+.preloader-30 .rects rect:nth-child(9) {
+  animation: blink 5s infinite;
+  animation-delay: 0.0687s;
+}
+.preloader-30 .rects rect:nth-child(10) {
+  animation: blink 5s infinite;
+  animation-delay: 0.59542s;
+}
+.preloader-30 .rects rect:nth-child(11) {
+  animation: blink 5s infinite;
+  animation-delay: 0.93893s;
+}
+.preloader-30 .rects rect:nth-child(12) {
+  animation: blink 5s infinite;
+  animation-delay: 0.23664s;
+}
+.preloader-30 .rects rect:nth-child(13) {
+  animation: blink 5s infinite;
+  animation-delay: 0.63359s;
+}
+.preloader-30 .rects rect:nth-child(14) {
+  animation: blink 5s infinite;
+  animation-delay: 0.0229s;
+}
+.preloader-30 .rects rect:nth-child(15) {
+  animation: blink 5s infinite;
+  animation-delay: 0.94656s;
+}
+.preloader-30 .rects rect:nth-child(16) {
+  animation: blink 5s infinite;
+  animation-delay: 0.92366s;
+}
+.preloader-30 .rects rect:nth-child(17) {
+  animation: blink 5s infinite;
+  animation-delay: 0.93893s;
+}
+.preloader-30 .rects rect:nth-child(18) {
+  animation: blink 5s infinite;
+  animation-delay: 0.03053s;
+}
+.preloader-30 .rects rect:nth-child(19) {
+  animation: blink 5s infinite;
+  animation-delay: 0.43511s;
+}
+.preloader-30 .rects rect:nth-child(20) {
+  animation: blink 5s infinite;
+  animation-delay: 0.64122s;
+}
+.preloader-30 .rects rect:nth-child(21) {
+  animation: blink 5s infinite;
+  animation-delay: 0.80153s;
+}
+.preloader-30 .rects rect:nth-child(22) {
+  animation: blink 5s infinite;
+  animation-delay: 0.8626s;
+}
+.preloader-30 .rects rect:nth-child(23) {
+  animation: blink 5s infinite;
+  animation-delay: 0.00763s;
+}
+.preloader-30 .rects rect:nth-child(24) {
+  animation: blink 5s infinite;
+  animation-delay: 0.19847s;
+}
+.preloader-30 .rects rect:nth-child(25) {
+  animation: blink 5s infinite;
+  animation-delay: 0.19847s;
+}
+.preloader-30 .rects rect:nth-child(26) {
+  animation: blink 5s infinite;
+  animation-delay: 0.43511s;
+}
+.preloader-30 .rects rect:nth-child(27) {
+  animation: blink 5s infinite;
+  animation-delay: 0.27481s;
+}
+.preloader-30 .rects rect:nth-child(28) {
+  animation: blink 5s infinite;
+  animation-delay: 0.82443s;
+}
+.preloader-30 .rects rect:nth-child(29) {
+  animation: blink 5s infinite;
+  animation-delay: 0.77863s;
+}
+.preloader-30 .rects rect:nth-child(30) {
+  animation: blink 5s infinite;
+  animation-delay: 0.61832s;
+}
+
+.preloader-50 .rects rect:nth-child(31) {
+  animation: blink 5s infinite;
+  animation-delay: 0.20611s;
+}
+.preloader-50 .rects rect:nth-child(32) {
+  animation: blink 5s infinite;
+  animation-delay: 0.83969s;
+}
+.preloader-50 .rects rect:nth-child(33) {
+  animation: blink 5s infinite;
+  animation-delay: 0.1145s;
+}
+.preloader-50 .rects rect:nth-child(34) {
+  animation: blink 5s infinite;
+  animation-delay: 0.20611s;
+}
+.preloader-50 .rects rect:nth-child(35) {
+  animation: blink 5s infinite;
+  animation-delay: 0.89313s;
+}
+.preloader-50 .rects rect:nth-child(36) {
+  animation: blink 5s infinite;
+  animation-delay: 0.53435s;
+}
+.preloader-50 .rects rect:nth-child(37) {
+  animation: blink 5s infinite;
+  animation-delay: 0.17557s;
+}
+.preloader-50 .rects rect:nth-child(38) {
+  animation: blink 5s infinite;
+  animation-delay: 0.16794s;
+}
+.preloader-50 .rects rect:nth-child(39) {
+  animation: blink 5s infinite;
+  animation-delay: 0.40458s;
+}
+.preloader-50 .rects rect:nth-child(40) {
+  animation: blink 5s infinite;
+  animation-delay: 0.0687s;
+}
+.preloader-50 .rects rect:nth-child(41) {
+  animation: blink 5s infinite;
+  animation-delay: 0.22901s;
+}
+.preloader-50 .rects rect:nth-child(42) {
+  animation: blink 5s infinite;
+  animation-delay: 0.61832s;
+}
+.preloader-50 .rects rect:nth-child(43) {
+  animation: blink 5s infinite;
+  animation-delay: 0.70229s;
+}
+.preloader-50 .rects rect:nth-child(44) {
+  animation: blink 5s infinite;
+  animation-delay: 0.0229s;
+}
+.preloader-50 .rects rect:nth-child(45) {
+  animation: blink 5s infinite;
+  animation-delay: 0.54962s;
+}
+.preloader-50 .rects rect:nth-child(46) {
+  animation: blink 5s infinite;
+  animation-delay: 0.39695s;
+}
+.preloader-50 .rects rect:nth-child(47) {
+  animation: blink 5s infinite;
+  animation-delay: 0.32824s;
+}
+.preloader-50 .rects rect:nth-child(48) {
+  animation: blink 5s infinite;
+  animation-delay: 0.54198s;
+}
+.preloader-50 .rects rect:nth-child(49) {
+  animation: blink 5s infinite;
+  animation-delay: 0.59542s;
+}
+.preloader-50 .rects rect:nth-child(50) {
+  animation: blink 5s infinite;
+  animation-delay: 0.84733s;
+}
+.preloader-50 .rects rect:nth-child(51) {
+  animation: blink 5s infinite;
+  animation-delay: 0.80916s;
+}
+.preloader-50 .rects rect:nth-child(52) {
+  animation: blink 5s infinite;
+  animation-delay: 0.54962s;
+}
+.preloader-50 .rects rect:nth-child(53) {
+  animation: blink 5s infinite;
+  animation-delay: 0.10687s;
+}
+.preloader-50 .rects rect:nth-child(54) {
+  animation: blink 5s infinite;
+  animation-delay: 0.9542s;
+}
+.preloader-50 .rects rect:nth-child(55) {
+  animation: blink 5s infinite;
+  animation-delay: 0.16794s;
+}
+.preloader-50 .rects rect:nth-child(56) {
+  animation: blink 5s infinite;
+  animation-delay: 0.49618s;
+}
+.preloader-50 .rects rect:nth-child(57) {
+  animation: blink 5s infinite;
+  animation-delay: 0.51908s;
+}
+.preloader-50 .rects rect:nth-child(58) {
+  animation: blink 5s infinite;
+  animation-delay: 0.77099s;
+}
+.preloader-50 .rects rect:nth-child(59) {
+  animation: blink 5s infinite;
+  animation-delay: 0.83206s;
+}
+.preloader-50 .rects rect:nth-child(60) {
+  animation: blink 5s infinite;
+  animation-delay: 0.21374s;
+}
+.preloader-50 .rects rect:nth-child(61) {
+  animation: blink 5s infinite;
+  animation-delay: 0.64122s;
+}
+.preloader-50 .rects rect:nth-child(62) {
+  animation: blink 5s infinite;
+  animation-delay: 0.0687s;
+}
+.preloader-50 .rects rect:nth-child(63) {
+  animation: blink 5s infinite;
+  animation-delay: 0.21374s;
+}
+.preloader-50 .rects rect:nth-child(64) {
+  animation: blink 5s infinite;
+  animation-delay: 0.92366s;
+}
+.preloader-50 .rects rect:nth-child(65) {
+  animation: blink 5s infinite;
+  animation-delay: 0.85496s;
+}
+
+.preloader-70 .rects rect:nth-child(66) {
+  animation: blink 5s infinite;
+  animation-delay: 0.38931s;
+}
+.preloader-70 .rects rect:nth-child(67) {
+  animation: blink 5s infinite;
+  animation-delay: 0.64122s;
+}
+.preloader-70 .rects rect:nth-child(68) {
+  animation: blink 5s infinite;
+  animation-delay: 0.34351s;
+}
+.preloader-70 .rects rect:nth-child(69) {
+  animation: blink 5s infinite;
+  animation-delay: 0.84733s;
+}
+.preloader-70 .rects rect:nth-child(70) {
+  animation: blink 5s infinite;
+  animation-delay: 0.03817s;
+}
+.preloader-70 .rects rect:nth-child(71) {
+  animation: blink 5s infinite;
+  animation-delay: 0.87786s;
+}
+.preloader-70 .rects rect:nth-child(72) {
+  animation: blink 5s infinite;
+  animation-delay: 0.05344s;
+}
+.preloader-70 .rects rect:nth-child(73) {
+  animation: blink 5s infinite;
+  animation-delay: 0.18321s;
+}
+.preloader-70 .rects rect:nth-child(74) {
+  animation: blink 5s infinite;
+  animation-delay: 0.74046s;
+}
+.preloader-70 .rects rect:nth-child(75) {
+  animation: blink 5s infinite;
+  animation-delay: 0.42748s;
+}
+.preloader-70 .rects rect:nth-child(76) {
+  animation: blink 5s infinite;
+  animation-delay: 0.8626s;
+}
+.preloader-70 .rects rect:nth-child(77) {
+  animation: blink 5s infinite;
+  animation-delay: 0.55725s;
+}
+.preloader-70 .rects rect:nth-child(78) {
+  animation: blink 5s infinite;
+  animation-delay: 0.99237s;
+}
+.preloader-70 .rects rect:nth-child(79) {
+  animation: blink 5s infinite;
+  animation-delay: 0.40458s;
+}
+.preloader-70 .rects rect:nth-child(80) {
+  animation: blink 5s infinite;
+  animation-delay: 0.0229s;
+}
+
+.preloader-90 .rects rect:nth-child(81) {
+  animation: blink 5s infinite;
+  animation-delay: 0.65649s;
+}
+.preloader-90 .rects rect:nth-child(82) {
+  animation: blink 5s infinite;
+  animation-delay: 0.94656s;
+}
+.preloader-90 .rects rect:nth-child(83) {
+  animation: blink 5s infinite;
+  animation-delay: 0.84733s;
+}
+.preloader-90 .rects rect:nth-child(84) {
+  animation: blink 5s infinite;
+  animation-delay: 0.77099s;
+}
+.preloader-90 .rects rect:nth-child(85) {
+  animation: blink 5s infinite;
+  animation-delay: 0.12214s;
+}
+.preloader-90 .rects rect:nth-child(86) {
+  animation: blink 5s infinite;
+  animation-delay: 0.84733s;
+}
+.preloader-90 .rects rect:nth-child(87) {
+  animation: blink 5s infinite;
+  animation-delay: 0.48855s;
+}
+.preloader-90 .rects rect:nth-child(88) {
+  animation: blink 5s infinite;
+  animation-delay: 0.57252s;
+}
+.preloader-90 .rects rect:nth-child(89) {
+  animation: blink 5s infinite;
+  animation-delay: 0.39695s;
+}
+.preloader-90 .rects rect:nth-child(90) {
+  animation: blink 5s infinite;
+  animation-delay: 0.60305s;
+}
+.preloader-90 .rects rect:nth-child(91) {
+  animation: blink 5s infinite;
+  animation-delay: 0.06107s;
+}
+.preloader-90 .rects rect:nth-child(92) {
+  animation: blink 5s infinite;
+  animation-delay: 0.83206s;
+}
+.preloader-90 .rects rect:nth-child(93) {
+  animation: blink 5s infinite;
+  animation-delay: 0.69466s;
+}
+.preloader-90 .rects rect:nth-child(94) {
+  animation: blink 5s infinite;
+  animation-delay: 0.85496s;
+}
+.preloader-90 .rects rect:nth-child(95) {
+  animation: blink 5s infinite;
+  animation-delay: 0.12214s;
+}
+.preloader-90 .rects rect:nth-child(96) {
+  animation: blink 5s infinite;
+  animation-delay: 0.0229s;
+}
+.preloader-90 .rects rect:nth-child(97) {
+  animation: blink 5s infinite;
+  animation-delay: 0.74046s;
+}
+.preloader-90 .rects rect:nth-child(98) {
+  animation: blink 5s infinite;
+  animation-delay: 0.16031s;
+}
+.preloader-90 .rects rect:nth-child(99) {
+  animation: blink 5s infinite;
+  animation-delay: 0.0687s;
+}
+.preloader-90 .rects rect:nth-child(100) {
+  animation: blink 5s infinite;
+  animation-delay: 0.58779s;
+}
+.preloader-90 .rects rect:nth-child(101) {
+  animation: blink 5s infinite;
+  animation-delay: 0.23664s;
+}
+.preloader-90 .rects rect:nth-child(102) {
+  animation: blink 5s infinite;
+  animation-delay: 0.54962s;
+}
+.preloader-90 .rects rect:nth-child(103) {
+  animation: blink 5s infinite;
+  animation-delay: 0.14504s;
+}
+.preloader-90 .rects rect:nth-child(104) {
+  animation: blink 5s infinite;
+  animation-delay: 0.56489s;
+}
+.preloader-90 .rects rect:nth-child(105) {
+  animation: blink 5s infinite;
+  animation-delay: 0.15267s;
+}
+.preloader-90 .rects rect:nth-child(106) {
+  animation: blink 5s infinite;
+  animation-delay: 0.00763s;
+}
+.preloader-90 .rects rect:nth-child(107) {
+  animation: blink 5s infinite;
+  animation-delay: 0.21374s;
+}
+.preloader-90 .rects rect:nth-child(108) {
+  animation: blink 5s infinite;
+  animation-delay: 0.14504s;
+}
+.preloader-90 .rects rect:nth-child(109) {
+  animation: blink 5s infinite;
+  animation-delay: 0.92366s;
+}
+.preloader-90 .rects rect:nth-child(110) {
+  animation: blink 5s infinite;
+  animation-delay: 0.24427s;
+}
+.preloader-90 .rects rect:nth-child(111) {
+  animation: blink 5s infinite;
+  animation-delay: 0.01527s;
+}
+.preloader-90 .rects rect:nth-child(112) {
+  animation: blink 5s infinite;
+  animation-delay: 0.68702s;
+}
+.preloader-90 .rects rect:nth-child(113) {
+  animation: blink 5s infinite;
+  animation-delay: 0.50382s;
+}
+.preloader-90 .rects rect:nth-child(114) {
+  animation: blink 5s infinite;
+  animation-delay: 0.16031s;
+}
+.preloader-90 .rects rect:nth-child(115) {
+  animation: blink 5s infinite;
+  animation-delay: 0.96183s;
+}
+
+.preloader-100 .rects rect:nth-child(116) {
+  animation: blink 5s infinite;
+  animation-delay: 0.64122s;
+}
+.preloader-100 .rects rect:nth-child(117) {
+  animation: blink 5s infinite;
+  animation-delay: 0.55725s;
+}
+.preloader-100 .rects rect:nth-child(118) {
+  animation: blink 5s infinite;
+  animation-delay: 0.32824s;
+}
+.preloader-100 .rects rect:nth-child(119) {
+  animation: blink 5s infinite;
+  animation-delay: 0.19847s;
+}
+.preloader-100 .rects rect:nth-child(120) {
+  animation: blink 5s infinite;
+  animation-delay: 0.68702s;
+}
+.preloader-100 .rects rect:nth-child(121) {
+  animation: blink 5s infinite;
+  animation-delay: 0.53435s;
+}
+.preloader-100 .rects rect:nth-child(122) {
+  animation: blink 5s infinite;
+  animation-delay: 0.80916s;
+}
+.preloader-100 .rects rect:nth-child(123) {
+  animation: blink 5s infinite;
+  animation-delay: 0.64885s;
+}
+.preloader-100 .rects rect:nth-child(124) {
+  animation: blink 5s infinite;
+  animation-delay: 0.72519s;
+}
+.preloader-100 .rects rect:nth-child(125) {
+  animation: blink 5s infinite;
+  animation-delay: 0.17557s;
+}
+.preloader-100 .rects rect:nth-child(126) {
+  animation: blink 5s infinite;
+  animation-delay: 0.75573s;
+}
+.preloader-100 .rects rect:nth-child(127) {
+  animation: blink 5s infinite;
+  animation-delay: 0.44275s;
+}
+.preloader-100 .rects rect:nth-child(128) {
+  animation: blink 5s infinite;
+  animation-delay: 0.71756s;
+}
+.preloader-100 .rects rect:nth-child(129) {
+  animation: blink 5s infinite;
+  animation-delay: 0.66412s;
+}
+.preloader-100 .rects rect:nth-child(130) {
+  animation: blink 5s infinite;
+  animation-delay: 0.78626s;
+}
+.preloader-100 .rects rect:nth-child(131) {
+  animation: blink 5s infinite;
+  animation-delay: 0.07634s;
+}

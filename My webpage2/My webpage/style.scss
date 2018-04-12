@@ -1,0 +1,159 @@
+@import "compass/css3";
+
+$total: 131;
+$width: 0;
+$height: 0; 
+$time: 2;
+$topenter: -10px;
+
+$rocketWidth: 64px;
+$rocketHeight: 64px;
+
+body {
+  background-color: #2B2D33;
+}
+ 
+.percent {
+  color: white;
+  font: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.preloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -$rocketWidth / 2;
+  margin-top: -$rocketHeight / 2;
+}
+
+@keyframes blink {
+  0%   { 
+    opacity: 0;
+  }
+  5% { 
+    opacity: 1
+  }
+  10% { 
+    opacity: 0
+  }
+  15% { 
+    opacity: 1
+  }
+  20% { 
+    opacity: 0
+  }
+  25% { 
+    opacity: 1
+  }
+  30% { 
+    opacity: 0
+  }
+  35% { 
+    opacity: 1
+  }
+  40% { 
+    opacity: 0
+  }
+  45% { 
+    opacity: 1
+  }
+  50% { 
+    opacity: 0
+  }
+  55% { 
+    opacity: 1
+  }
+  60% { 
+    opacity: 0
+  }
+  65% { 
+    opacity: 1
+  }
+  70% { 
+    opacity: 0
+  }
+  75% { 
+    opacity: 1
+  }
+  80% { 
+    opacity: 0
+  }
+  85% { 
+    opacity: 1
+  }
+  90% { 
+    opacity: 0
+  }
+  95% { 
+    opacity: 1
+  }
+  100% { 
+    opacity: 0
+  }
+}
+
+@for $i from 1 through $total {
+  .rects rect:nth-child(#{$i}) {
+    position:relative;
+    opacity: 0;
+
+  }
+}
+
+.preloader-10 {
+  @for $i from 1 through 8 {
+    .rects rect:nth-child(#{$i}) {
+      animation: blink 5s infinite;
+      animation-delay:(random($total)/$total)+s;
+    }
+  }
+}
+
+.preloader-30 {
+  @for $i from 9 through 30 {
+    .rects rect:nth-child(#{$i}) {
+      animation: blink 5s infinite;
+      animation-delay:(random($total)/$total)+s;
+    }
+  }
+}
+
+.preloader-50 {
+  @for $i from 31 through 65 {
+    .rects rect:nth-child(#{$i}) {
+      animation: blink 5s infinite;
+      animation-delay:(random($total)/$total)+s;
+    }
+  }
+}
+
+.preloader-70 {
+  @for $i from 66 through 80 {
+    .rects rect:nth-child(#{$i}) {
+      animation: blink 5s infinite;
+      animation-delay:(random($total)/$total)+s;
+    }
+  }
+}
+
+.preloader-90 {
+  @for $i from 81 through 115 {
+    .rects rect:nth-child(#{$i}) {
+      animation: blink 5s infinite;
+      animation-delay:(random($total)/$total)+s;
+    }
+  }
+}
+
+.preloader-100 {
+  @for $i from 116 through 131 {
+    .rects rect:nth-child(#{$i}) {
+      animation: blink 5s infinite;
+      animation-delay: (random($total)/$total)+s;
+    }
+  }
+}
